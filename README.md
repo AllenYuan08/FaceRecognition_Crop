@@ -7,6 +7,7 @@ Instructions:
 1. First, choose mode: V for video to image; I for face detection and crop; B for both.
 2. Then, input the corresponding paths, if choose V or I, you can leave the other path blank or simple input "XXX".
 3. Take B as an example:
+
    (1) Program will first read videos from the video_path, and extract 10 frames evenly and save them into the img_path.
    
    (2) Then, the program will read the images from the img_path and start face detection using dlib front detector with parallel cpu calculations to improve efficiency.
